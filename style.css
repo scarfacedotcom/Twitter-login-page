@@ -1,0 +1,100 @@
+body {
+      margin: 0;
+      width: 100vw;
+      height: 100vh;
+      background: #ecf0f3;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      place-items: center;
+      overflow: hidden;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+    .container {
+      height: 530px;
+      width: 350px;
+      padding: 40px;
+      position: relative;
+      border-radius: 10%;
+      box-sizing: border-box;
+      background: #ecf0f3;
+
+
+      box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    }
+
+    .main-body {
+      text-align: left;
+      margin-top: 30px;
+    }
+
+    .brand-logo {
+      height: 100px;
+      width: 100px;
+      background: url(https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png) no-repeat center center/cover;
+      margin: auto;
+      border-radius: 50%;
+      box-sizing: border-box;
+
+      box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+    }
+
+    .brand-title {
+      margin-top: 10px;
+      font-weight: 900;
+      font-size: 1.8rem;
+      color: #1DA1F2;
+      letter-spacing: 1px;
+    }
+
+    input {
+      background: #ecf0f3;
+      padding: 10px;
+      padding-left: 20px;
+      height: 50px;
+      font-size: 14px;
+      border-radius: 50px;
+      border: none;
+
+      box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+    }
+
+    button{
+      background: #1DA1F2;
+      color: white;
+      padding: 10px;
+      padding-left: 20px;
+      margin-top: 5px;
+      height: 40px;
+      width: 250px;
+      border-radius:20px;
+      border: none;
+      cursor: pointer;
+      font-weight: 900;
+
+      box-shadow:  6px 6px 6px #cbced1, -6px -6px 6px white;
+    }
+    
+    label, input, button {
+      display: block;
+      width: 100%;
+      padding: 0;
+      border: none;
+      outline: none;
+      box-sizing: border-box;
+    }
+
+    input::placeholder {
+      color: gray;
+      padding-left: 20px;
+    }
+
+    button:hover {
+    box-shadow: none;
+    background: #1DA1F2;
+    color: black;
+    box-shadow: 6px 6px 6px #cbced1,  -6px -6px 6px white;
+    }
+
+   
